@@ -1,0 +1,11 @@
+variable "instances" {
+  default = ["mongodb","catalogue","redis","user","cart","mysql","shipping","rabbitmq","payment","frontend"]
+}
+
+variable "zone_id" {
+  default = "Z05202297D7QR4S9L2JB"
+}
+
+variable "domain_name" {
+  default ="naginenihariaws.store"
+}
